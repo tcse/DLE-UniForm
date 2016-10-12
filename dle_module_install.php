@@ -9,7 +9,7 @@ include('dle_starter_installer/install.class.php');
 /**
  * Название модуля, кторый необходимо установить
  */
-$moduleName = (isset($_REQUEST['module'])) ? trim($_REQUEST['module']) : 'dle_starter';
+$moduleName = (isset($_REQUEST['module'])) ? trim($_REQUEST['module']) : 'uniform';
 
 // Создаём новый экземпляр класса ecnfyjdobrf
 $installer = new dleStarterInstaller($moduleName);
